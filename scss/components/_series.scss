@@ -1,0 +1,36 @@
+@import '../base/colors';
+@import '../base/fonts';
+@import '../base/mixins';
+
+.main-series {
+    h1 {
+        @include page-header;
+    }
+
+    p {
+        @include header-paragraph;
+    }
+}
+
+.section-series {
+    h2, p {
+        font-family: $paragraph-font;
+    }
+    
+    .series-card {
+        transition: 0.35s;
+        background-color: $imperial-black-secondary;
+
+        &:hover {
+            scale: 1.015;
+        }
+
+        img {
+            border-radius: 12px;
+        }
+
+        h3, h4, h5 {
+            @include cards-info;
+        }
+    }
+}

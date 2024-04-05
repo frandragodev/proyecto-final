@@ -1,0 +1,36 @@
+@import '../base/colors';
+@import '../base/fonts';
+
+nav {
+
+    .navbar-brand {
+        font-family: $brand-font;
+        font-size: 2.5em;
+        color: $hoth-white;
+        transition: 0.35s;
+    }
+
+    .navbar-nav {
+        font-family: $nav-items-font;
+        font-weight: 300;
+        font-size: 1em;
+        text-transform: uppercase;
+        
+        .active {
+            font-weight: 400;
+        }
+    
+        a {
+            transition: 0.35s;
+            color: $hoth-white;
+        }
+    
+        a:hover {
+            font-weight: 400;
+            color: $bastila-yellow;
+            text-shadow: 0 0 6px $bastila-yellow;
+        }
+    
+    }
+
+}

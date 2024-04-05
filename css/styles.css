@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+nav .navbar-brand {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2.5em;
+  color: rgb(217, 223, 225);
+  transition: 0.35s;
+}
+nav .navbar-nav {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+nav .navbar-nav .active {
+  font-weight: 400;
+}
+nav .navbar-nav a {
+  transition: 0.35s;
+  color: rgb(217, 223, 225);
+}
+nav .navbar-nav a:hover {
+  font-weight: 400;
+  color: rgb(255, 232, 31);
+  text-shadow: 0 0 6px rgb(255, 232, 31);
+}
+
+footer a {
+  color: rgb(255, 232, 31);
+  transition: 0.35s;
+}
+footer a:hover {
+  text-shadow: 0 0 12px rgb(255, 232, 31);
+}
+footer p {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.main-index .display-1 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 600;
+  text-shadow: 0 0 4px rgb(217, 223, 225);
+}
+.main-index .lead {
+  font-family: "Open Sans", sans-serif;
+}
+
+.section-opening .section-opening-title h2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 500;
+  color: #1DF4F7;
+}
+.section-opening .section-opening-title p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.section-phrase {
+  height: calc(100dvh - 176px);
+  padding-top: 176px;
+}
+.section-phrase p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  color: rgb(217, 223, 225);
+  transition: 0.35s;
+}
+.section-phrase p:hover {
+  color: #2FF924;
+  letter-spacing: 0.05em;
+  text-shadow: 0 0 24px #2FF924;
+  font-weight: 400;
+}
+.section-phrase cite {
+  font-size: 1.25em;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  color: rgb(217, 223, 225);
+  transition: 0.35s;
+}
+
+.main-movies h1 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 600;
+  text-shadow: 0 0 4px rgb(217, 223, 225);
+}
+
+.section-movies h2,
+.section-movies p {
+  font-family: "Open Sans", sans-serif;
+}
+.section-movies .movie-card {
+  transition: 0.35s;
+}
+.section-movies .movie-card:hover {
+  transform: scale(1.02);
+}
+.section-movies .movie-card h3,
+.section-movies .movie-card h4,
+.section-movies .movie-card h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.main-series h1 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 600;
+  text-shadow: 0 0 4px rgb(217, 223, 225);
+}
+.main-series p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.section-series h2, .section-series p {
+  font-family: "Open Sans", sans-serif;
+}
+.section-series .series-card {
+  transition: 0.35s;
+  background-color: rgb(12, 12, 12);
+}
+.section-series .series-card:hover {
+  scale: 1.015;
+}
+.section-series .series-card img {
+  border-radius: 12px;
+}
+.section-series .series-card h3, .section-series .series-card h4, .section-series .series-card h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.main-characters h1 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 600;
+  text-shadow: 0 0 4px rgb(217, 223, 225);
+}
+.main-characters p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.section-characters .characters-card {
+  transition: 0.35s;
+}
+.section-characters .characters-card img {
+  height: 80dvh;
+  object-fit: cover;
+}
+.section-characters .characters-card:hover {
+  transform: scale(1.025);
+}
+.section-characters .characters-card .card {
+  overflow: hidden;
+}
+.section-characters .characters-card .card .card-img-overlay .card-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+}
+.section-characters .characters-card .card .card-img-overlay .card-text {
+  font-family: "Open Sans", sans-serif;
+}
+
+.main-planets h1 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 600;
+  text-shadow: 0 0 4px rgb(217, 223, 225);
+}
+.main-planets p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.planets-card {
+  transition: 0.35s;
+}
+.planets-card h2 {
+  font-family: "Libre Franklin", sans-serif;
+  opacity: 0;
+  transition: 0.3s;
+}
+.planets-card:hover {
+  transform: scale(1.015);
+}
+
+/*# sourceMappingURL=styles.css.map */

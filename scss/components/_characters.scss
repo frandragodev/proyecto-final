@@ -1,0 +1,44 @@
+@import '../base/colors';
+@import '../base/fonts';
+@import '../base/mixins';
+
+.main-characters {
+    h1 {
+        @include page-header;
+    }
+
+    p {
+        @include header-paragraph;
+    }
+}
+
+.section-characters {
+    .characters-card {
+        transition: 0.35s;
+
+        img {
+            height: 80dvh;
+            object-fit: cover;
+        }
+
+        &:hover{
+            transform: scale(1.025);
+        }
+
+        .card {
+            overflow: hidden;
+
+            .card-img-overlay {
+                .card-title {
+                    font-family: $title-font;
+                    font-weight: 400;
+                }
+
+                .card-text {
+                    font-family: $paragraph-font;
+                }
+            }
+        }
+
+    }
+}

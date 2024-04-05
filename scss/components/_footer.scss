@@ -1,0 +1,18 @@
+@import '../base/fonts';
+
+footer {
+
+    a {
+        color: $bastila-yellow;
+        transition: 0.35s;
+    }
+
+    a:hover {
+        text-shadow: 0 0 12px $bastila-yellow;
+    }
+
+    p {
+        font-family: $paragraph-font;
+    }
+
+}

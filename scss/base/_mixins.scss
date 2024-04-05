@@ -1,0 +1,14 @@
+@mixin page-header {
+    font-family: $special-title;
+    font-weight: 600;
+    text-shadow: 0 0 4px $hoth-white;
+}
+
+@mixin header-paragraph {
+    font-family: $paragraph-font;
+}
+
+@mixin cards-info {
+    font-family: $paragraph-font;
+    font-weight: 400;
+}

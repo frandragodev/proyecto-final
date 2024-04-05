@@ -1,0 +1,30 @@
+@import "../base/colors";
+@import "../base/fonts";
+@import "../base/mixins";
+
+.main-movies {
+    h1 {
+        @include page-header;
+    }
+}
+
+.section-movies {
+    h2,
+    p {
+        font-family: $paragraph-font;
+    }
+
+    .movie-card {
+        transition: 0.35s;
+
+        &:hover {
+            transform: scale(1.02);
+        }
+
+        h3,
+        h4,
+        h5 {
+            @include cards-info;
+        }
+    }
+}

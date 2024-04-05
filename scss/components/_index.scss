@@ -1,0 +1,59 @@
+@import "../base/colors";
+@import "../base/fonts";
+@import "../base/mixins";
+
+body {
+    background-color: $imperial-black;
+}
+
+.main-index {
+    .display-1 {
+        @include page-header;
+    }
+
+    .lead {
+        @include header-paragraph;
+    }
+}
+
+.section-opening {
+    .section-opening-title {
+        h2 {
+            font-family: $special-title;
+            font-weight: 500;
+            color: $anakin-lightblue;
+        }
+
+        p {
+            font-family: $paragraph-font;
+        }
+    }
+}
+
+.section-phrase {
+    height: calc(100dvh - 176px);
+    padding-top: calc(176px);
+
+    p {
+        font-family: $paragraph-font;
+        font-size: 1.5em;
+        font-weight: 300;
+        color: $hoth-white;
+        transition: 0.35s;
+
+        &:hover {
+            color: $qui-gon-green;
+            letter-spacing: 0.05em;
+            text-shadow: 0 0 24px $qui-gon-green;
+            font-weight: 400;
+        }
+    }
+
+    cite {
+        font-size: 1.25em;
+        font-family: $title-font;
+        font-weight: 300;
+        color: $hoth-white;
+        transition: 0.35s;
+    }
+}

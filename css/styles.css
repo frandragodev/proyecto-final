@@ -165,8 +165,8 @@ body {
   overflow: hidden;
 }
 .section-characters .characters-card .card .card-img-overlay .card-title {
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 400;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 600;
 }
 .section-characters .characters-card .card .card-img-overlay .card-text {
   font-family: "Open Sans", sans-serif;

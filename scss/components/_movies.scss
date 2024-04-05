@@ -28,3 +28,7 @@
         }
     }
 }
+
+.section-movies-card:has(.movie-card:hover) > .movie-card:not(:hover) {
+    opacity: 0.5;
+}

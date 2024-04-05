@@ -111,6 +111,10 @@ body {
   font-weight: 400;
 }
 
+.section-movies-card:has(.movie-card:hover) > .movie-card:not(:hover) {
+  opacity: 0.5;
+}
+
 .main-series h1 {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 600;

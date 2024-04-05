@@ -1,6 +1,6 @@
-@import '../base/colors';
-@import '../base/fonts';
-@import '../base/mixins';
+@import "../base/colors";
+@import "../base/fonts";
+@import "../base/mixins";
 
 .main-characters {
     h1 {
@@ -21,7 +21,7 @@
             object-fit: cover;
         }
 
-        &:hover{
+        &:hover {
             transform: scale(1.025);
         }
 
@@ -30,8 +30,8 @@
 
             .card-img-overlay {
                 .card-title {
-                    font-family: $title-font;
-                    font-weight: 400;
+                    font-family: $special-title;
+                    font-weight: 600;
                 }
 
                 .card-text {
@@ -39,6 +39,5 @@
                 }
             }
         }
-
     }
 }

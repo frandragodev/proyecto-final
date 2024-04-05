@@ -188,5 +188,8 @@ body {
 .planets-card:hover {
   transform: scale(1.015);
 }
+.planets-card:hover h2 {
+  opacity: 1;
+}
 
 /*# sourceMappingURL=styles.css.map */

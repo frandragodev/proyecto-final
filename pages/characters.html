@@ -1,260 +1,269 @@
 <!DOCTYPE html>
 
 <html lang="es" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- seo keywords and description -->
+        <meta name="description" content="Meet iconic characters from the Star Wars universe, including Jedi, Sith, smugglers, and droids. Learn about their backgrounds and roles in the saga." />
+        <meta name="keywords" content="Star Wars characters, Anakin Skywalker, Luke Skywalker, Obi-Wan Kenobi, Darth Vader, Princess Leia, Han Solo, Yoda, C-3PO, R2-D2, Padmé Amidala, Darth Maul, Count Dooku" />
 
-    <!-- seo keywords and description -->
-    <meta name="description" content="Meet iconic characters from the Star Wars universe, including Jedi, Sith, smugglers, and droids. Learn about their backgrounds and roles in the saga.">
-    <meta name="keywords" content="Star Wars characters, Anakin Skywalker, Luke Skywalker, Obi-Wan Kenobi, Darth Vader, Princess Leia, Han Solo, Yoda, C-3PO, R2-D2, Padmé Amidala, Darth Maul, Count Dooku">
+        <!-- bootstrap compiled css @5.3.3 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
 
-    <!-- bootstrap compiled css @5.3.3 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <!-- font-awesome cdn library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- font-awesome cdn library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- animate.css library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-    <!-- animate.css library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <!-- favicon link -->
+        <link rel="shortcut icon" href="../imgs/favicon.svg" type="image/x-icon" />
 
-    <!-- favicon link -->
-    <link rel="shortcut icon" href="../imgs/favicon.svg" type="image/x-icon">
+        <!-- css link -->
+        <link rel="stylesheet" href="../css/styles.css" />
 
-    <!-- css link -->
-    <link rel="stylesheet" href="../css/styles.css">
+        <title>Characters - Rebel</title>
+    </head>
 
-    <title>Characters - Rebel</title>
-</head>
-
-<body>
-
-    <!-- navbar component -->
-    <nav class="navbar navbar-expand-lg text-center px-4">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">Rebel</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="movies.html">Movies</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="series.html">Series</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Characters</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="planets.html">Planets</a>
-                    </li>
-                </ul>
+    <body>
+        <!-- navbar component -->
+        <nav class="navbar navbar-expand-lg text-center px-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Rebel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="movies.html">Movies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="series.html">Series</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Characters</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="planets.html">Planets</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-    <!-- main content -->
-    <main class="container main-characters animate__animated animate__fadeIn">
-        <div class="row py-4">
-            <div class="col">
-                <h1>Star Wars Characters</h1>
-                <p class="lead">Discover some of the major characters that take part in the vast history of Star Wars.</p>
-            </div>
-        </div>
-
-        <!-- section containing a list of major Star Wars characters -->
-        <section class="row section-characters row-cols-1 gy-4 pb-5">
-
-            <!-- character card content -->
-            <div class="col characters-card">
-                <div class="card text-bg-dark border-0 rounded-4">
-                    <img src="../imgs/characters/01-anakin-skywalker.jpg" class="card-img" alt="Anakin Skywalker force ghost.">
-                    <div class="card-img-overlay p-4 d-inline-flex flex-column justify-content-end">
-                        <h2 class="card-title display-2">Anakin Skywalker</h2>
-                        <p class="card-text">A hero of the Clone Wars, Anakin was caring and compassionate, but suffered from a deep fear of loss that would prove to be his downfall.</p>
-                    </div>
+        <!-- main content -->
+        <main class="container main-characters animate__animated animate__fadeIn">
+            <div class="row py-4">
+                <div class="col">
+                    <h1>Star Wars Characters</h1>
+                    <p class="lead">Discover some of the major characters that take part in the vast history of Star Wars.</p>
                 </div>
             </div>
 
-            <!-- character card content -->
-            <div class="col characters-card">
-                <div class="card text-bg-dark border-0 rounded-4">
-                    <img src="../imgs/characters/02-darth-vader.jpg" class="card-img" alt="Darth Vader wielding his lightsaber">
-                    <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
-                        <h2 class="card-title display-2">Darth Vader</h2>
-                        <p class="card-text">Once the heroic Jedi Knight named Anakin Skywalker, Darth Vader was seduced by the dark side of the Force.</p>
+            <!-- section containing a list of major Star Wars characters -->
+            <section class="row row-cols-1 row-cols-xl-2 section-characters gy-4 pb-5">
+                <!-- character card content -->
+                <div class="col characters-card">
+                    <div class="card text-bg-dark border-0 rounded-4">
+                        <img src="../imgs/characters/01-anakin-skywalker.jpg" class="card-img" alt="Anakin Skywalker force ghost." />
+                        <div class="card-img-overlay p-4 d-inline-flex flex-column justify-content-end">
+                            <h2 class="card-title display-2">Anakin Skywalker</h2>
+                            <p class="card-text">A hero of the Clone Wars, Anakin was caring and compassionate, but suffered from a deep fear of loss that would prove to be his downfall.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- character card content -->
-            <div class="col characters-card">
-                <div class="card text-bg-dark border-0 rounded-4">
-                    <img src="../imgs/characters/03-luke-skywalker.jpg" class="card-img" alt="Luke Skywalker looking at the horizon in his farm on Tatooine">
-                    <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
-                        <h2 class="card-title display-2">Luke Skywalker</h2>
-                        <p class="card-text">A Jedi who battled the evil Empire, discovered the truth of his parentage, and ended the tyranny of the Sith.</p>
+                <!-- character card content -->
+                <div class="col characters-card">
+                    <div class="card text-bg-dark border-0 rounded-4">
+                        <img src="../imgs/characters/02-darth-vader.jpg" class="card-img" alt="Darth Vader wielding his lightsaber" />
+                        <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
+                            <h2 class="card-title display-2">Darth Vader</h2>
+                            <p class="card-text">Once the heroic Jedi Knight named Anakin Skywalker, Darth Vader was seduced by the dark side of the Force.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- character card content -->
-            <div class="col characters-card">
-                <div class="card text-bg-dark border-0 rounded-4">
-                    <img src="../imgs/characters/04-ahsoka-tano.jpg" class="card-img" alt="Ahsoka Tano">
-                    <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
-                        <h2 class="card-title display-2">Ahsoka Tano</h2>
-                        <p class="card-text">Former Jedi Knight that once served as the Padawan learner to the Jedi Anakin Skywalker during the Clone Wars.</p>
+                <!-- character card content -->
+                <div class="col characters-card">
+                    <div class="card text-bg-dark border-0 rounded-4">
+                        <img src="../imgs/characters/03-luke-skywalker.jpg" class="card-img" alt="Luke Skywalker looking at the horizon in his farm on Tatooine" />
+                        <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
+                            <h2 class="card-title display-2">Luke Skywalker</h2>
+                            <p class="card-text">A Jedi who battled the evil Empire, discovered the truth of his parentage, and ended the tyranny of the Sith.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- character card content -->
-            <div class="col characters-card">
-                <div class="card text-bg-dark border-0 rounded-4">
-                    <img src="../imgs/characters/05-obi-wan-kenobi.jpg" class="card-img" alt="Obi-Wan Kenobi in the Jedi Council">
-                    <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
-                        <h2 class="card-title display-2">Obi-Wan Kenobi</h2>
-                        <p class="card-text">Legendary Jedi Master, a noble man and gifted in the ways of the Force. He trained Anakin Skywalker and guided Luke Skywalker as a mentor.</p>
+                <!-- character card content -->
+                <div class="col characters-card">
+                    <div class="card text-bg-dark border-0 rounded-4">
+                        <img src="../imgs/characters/04-ahsoka-tano.jpg" class="card-img" alt="Ahsoka Tano" />
+                        <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
+                            <h2 class="card-title display-2">Ahsoka Tano</h2>
+                            <p class="card-text">Former Jedi Knight that once served as the Padawan learner to the Jedi Anakin Skywalker during the Clone Wars.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- character card content -->
-            <div class="col characters-card">
-                <div class="card text-bg-dark border-0 rounded-4">
-                    <img src="../imgs/characters/06-padme-amidala.jpg" class="card-img" alt="Padmé Amidala">
-                    <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
-                        <h2 class="card-title display-2">Padmé Amidala</h2>
-                        <p class="card-text">A courageous and hopeful leader, serving as Queen and then Senator of Naboo.</p>
+                <!-- character card content -->
+                <div class="col characters-card">
+                    <div class="card text-bg-dark border-0 rounded-4">
+                        <img src="../imgs/characters/05-obi-wan-kenobi.jpg" class="card-img" alt="Obi-Wan Kenobi in the Jedi Council" />
+                        <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
+                            <h2 class="card-title display-2">Obi-Wan Kenobi</h2>
+                            <p class="card-text">Legendary Jedi Master, a noble man and gifted in the ways of the Force. He trained Anakin Skywalker and guided Luke Skywalker as a mentor.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- character card content -->
-            <div class="col characters-card">
-                <div class="card text-bg-dark border-0 rounded-4">
-                    <img src="../imgs/characters/07-emperor-palpatine.jpg" class="card-img" alt="Darth Sidious">
-                    <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
-                        <h2 class="card-title display-2">Emperor Palpatine (Darth Sidious)</h2>
-                        <p class="card-text">Scheming, powerful, and evil to the core, he restored the Sith and destroyed the Jedi Order. Living a double life, he was also a Naboo Senator.</p>
+                <!-- character card content -->
+                <div class="col characters-card">
+                    <div class="card text-bg-dark border-0 rounded-4">
+                        <img src="../imgs/characters/06-padme-amidala.jpg" class="card-img" alt="Padmé Amidala" />
+                        <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
+                            <h2 class="card-title display-2">Padmé Amidala</h2>
+                            <p class="card-text">A courageous and hopeful leader, serving as Queen and then Senator of Naboo.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- character card content -->
-            <div class="col characters-card">
-                <div class="card text-bg-dark border-0 rounded-4">
-                    <img src="../imgs/characters/08-leia-organa.jpg" class="card-img" alt="Leia Organa holding a blaster pistol">
-                    <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
-                        <h2 class="card-title display-2">Leia Organa</h2>
-                        <p class="card-text">Princess Leia Organa was one of the greatest leaders of the Rebel Alliance, fearless on the battlefield and dedicated to ending the Empire’s tyranny.</p>
+                <!-- character card content -->
+                <div class="col characters-card">
+                    <div class="card text-bg-dark border-0 rounded-4">
+                        <img src="../imgs/characters/07-emperor-palpatine.jpg" class="card-img" alt="Darth Sidious" />
+                        <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
+                            <h2 class="card-title display-2">Emperor Palpatine</h2>
+                            <p class="card-text">Scheming, powerful, and evil to the core, he restored the Sith and destroyed the Jedi Order. Living a double life, he was also a Naboo Senator.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- character card content -->
-            <div class="col characters-card">
-                <div class="card text-bg-dark border-0 rounded-4">
-                    <img src="../imgs/characters/09-han-solo.jpg" class="card-img" alt="Han Solo shrugging">
-                    <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
-                        <h2 class="card-title display-2">Han Solo</h2>
-                        <p class="card-text">Captain of the Millennium Falcon, a well known bounty hunter from Corellia that became one of the heroes of the Rebel Alliance.</p>
+                <!-- character card content -->
+                <div class="col characters-card">
+                    <div class="card text-bg-dark border-0 rounded-4">
+                        <img src="../imgs/characters/08-leia-organa.jpg" class="card-img" alt="Leia Organa holding a blaster pistol" />
+                        <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
+                            <h2 class="card-title display-2">Leia Organa</h2>
+                            <p class="card-text">Princess Leia Organa was one of the greatest leaders of the Rebel Alliance, fearless on the battlefield and dedicated to ending the Empire’s tyranny.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- character card content -->
-            <div class="col characters-card">
-                <div class="card text-bg-dark border-0 rounded-4">
-                    <img src="../imgs/characters/10-yoda.jpg" class="card-img" alt="Yoda in the Jedi Council">
-                    <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
-                        <h2 class="card-title display-2">Yoda</h2>
-                        <p class="card-text">Yoda was a legendary Jedi Master and stronger than most in his connection with the Force.</p>
+                <!-- character card content -->
+                <div class="col characters-card">
+                    <div class="card text-bg-dark border-0 rounded-4">
+                        <img src="../imgs/characters/09-han-solo.jpg" class="card-img" alt="Han Solo shrugging" />
+                        <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
+                            <h2 class="card-title display-2">Han Solo</h2>
+                            <p class="card-text">Captain of the Millennium Falcon, a well known bounty hunter from Corellia that became one of the heroes of the Rebel Alliance.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- character card content -->
-            <div class="col characters-card">
-                <div class="card text-bg-dark border-0 rounded-4">
-                    <img src="../imgs/characters/11-qui-gon-jinn.jpg" class="card-img" alt="Qui-Gon Jinn wielding his lightsaber">
-                    <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
-                        <h2 class="card-title display-2">Qui-Gon Jinn</h2>
-                        <p class="card-text">A venerable if maverick Jedi Master, Qui-Gon Jinn was a student of the living Force. On Tatooine, Qui-Gon discovered a young slave boy named Anakin Skywalker who was strong in the Force.</p>
-                        <p class="card-text"></p>
+                <!-- character card content -->
+                <div class="col characters-card">
+                    <div class="card text-bg-dark border-0 rounded-4">
+                        <img src="../imgs/characters/10-yoda.jpg" class="card-img" alt="Yoda in the Jedi Council" />
+                        <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
+                            <h2 class="card-title display-2">Yoda</h2>
+                            <p class="card-text">Yoda was a legendary Jedi Master and stronger than most in his connection with the Force.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- character card content -->
-            <div class="col characters-card">
-                <div class="card text-bg-dark border-0 rounded-4">
-                    <img src="../imgs/characters/12-count-dooku.jpg" class="card-img" alt="Count Dooku wielding his lightsaber">
-                    <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
-                        <h2 class="card-title display-2">Count Dooku</h2>
-                        <p class="card-text">Count Dooku was a menacing Sith Lord and central figure in the Clone Wars. Once a Jedi, he became disillusioned with the Jedi Order and thirsted for greater power.</p>
+                <!-- character card content -->
+                <div class="col characters-card">
+                    <div class="card text-bg-dark border-0 rounded-4">
+                        <img src="../imgs/characters/11-qui-gon-jinn.jpg" class="card-img" alt="Qui-Gon Jinn wielding his lightsaber" />
+                        <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
+                            <h2 class="card-title display-2">Qui-Gon Jinn</h2>
+                            <p class="card-text">A venerable if maverick Jedi Master, Qui-Gon Jinn was a student of the living Force. On Tatooine, Qui-Gon discovered a young slave boy named Anakin Skywalker who was strong in the Force.</p>
+                            <p class="card-text"></p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- character card content -->
-            <div class="col characters-card">
-                <div class="card text-bg-dark border-0 rounded-4">
-                    <img src="../imgs/characters/13-commander-rex.jpg" class="card-img" alt="Commander Rex">
-                    <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
-                        <h2 class="card-title display-2">Commander Rex</h2>
-                        <p class="card-text">Rex once served the Republic on the frontlines during the Clone Wars, taking orders from Anakin Skywalker and Ahsoka Tano as first a captain and later a commander.</p>
+                <!-- character card content -->
+                <div class="col characters-card">
+                    <div class="card text-bg-dark border-0 rounded-4">
+                        <img src="../imgs/characters/12-count-dooku.jpg" class="card-img" alt="Count Dooku wielding his lightsaber" />
+                        <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
+                            <h2 class="card-title display-2">Count Dooku</h2>
+                            <p class="card-text">Count Dooku was a menacing Sith Lord and central figure in the Clone Wars. Once a Jedi, he became disillusioned with the Jedi Order and thirsted for greater power.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- character card content -->
-            <div class="col characters-card">
-                <div class="card text-bg-dark border-0 rounded-4">
-                    <img src="../imgs/characters/14-r2d2-c3po.jpg" class="card-img" alt="C3PO and R2-D2 in the sands of Tatooine">
-                    <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
-                        <h2 class="card-title display-2">C3PO and R2-D2</h2>
-                        <p class="card-text">C-3PO, a neurotic protocol droid fluent in over six million forms of communication, and R2-D2, a resourceful astromech droid with a knack for saving the day, are an incredible duo and loyal companions and help the heroes in their adventures.</p>
+                <!-- character card content -->
+                <div class="col characters-card">
+                    <div class="card text-bg-dark border-0 rounded-4">
+                        <img src="../imgs/characters/13-commander-rex.jpg" class="card-img" alt="Commander Rex" />
+                        <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
+                            <h2 class="card-title display-2">Commander Rex</h2>
+                            <p class="card-text">Rex once served the Republic on the frontlines during the Clone Wars, taking orders from Anakin Skywalker and Ahsoka Tano as first a captain and later a commander.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- character card content -->
-            <div class="col characters-card">
-                <div class="card text-bg-dark border-0 rounded-4">
-                    <img src="../imgs/characters/15-darth-maul.jpg" class="card-img" alt="Darth Maul">
-                    <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
-                        <h2 class="card-title display-2">Darth Maul</h2>
-                        <p class="card-text">A deadly, agile Sith Lord trained by the evil Darth Sidious, Darth Maul was a formidable warrior and scheming mastermind.</p>
+                <!-- character card content -->
+                <div class="col characters-card">
+                    <div class="card text-bg-dark border-0 rounded-4">
+                        <img src="../imgs/characters/14-r2d2-c3po.jpg" class="card-img" alt="C3PO and R2-D2 in the sands of Tatooine" />
+                        <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
+                            <h2 class="card-title display-2">C3PO and R2-D2</h2>
+                            <p class="card-text">C-3PO, a neurotic protocol droid fluent in over six million forms of communication, and R2-D2, a resourceful astromech droid with a knack for saving the day, are an incredible duo and loyal companions and help the heroes in their adventures.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-        </section>
+                <!-- character card content -->
+                <div class="col characters-card">
+                    <div class="card text-bg-dark border-0 rounded-4">
+                        <img src="../imgs/characters/15-darth-maul.jpg" class="card-img" alt="Darth Maul" />
+                        <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
+                            <h2 class="card-title display-2">Darth Maul</h2>
+                            <p class="card-text">A deadly, agile Sith Lord trained by the evil Darth Sidious, Darth Maul was a formidable warrior and scheming mastermind.</p>
+                        </div>
+                    </div>
+                </div>
 
-    </main>
+                <!-- character card content -->
+                <div class="col characters-card">
+                    <div class="card text-bg-dark border-0 rounded-4">
+                        <img src="../imgs/characters/16-cad-bane.jpg" class="card-img" alt="Cad Bane" />
+                        <div class="card-img-overlay p-4 d-flex flex-column justify-content-end">
+                            <h2 class="card-title display-2">Cad Bane</h2>
+                            <p class="card-text">A ruthless Duros male bounty hunter and mercenary in the galaxy whose career spanned from the fall of the Galactic Republic, the reign of the Galactic Empire and into the era of the New Republic.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-    <!-- site footer -->
-    <footer class="container-fluid text-center py-5">
-        <ul class="list-inline">
-            <li class="list-inline-item"><a href="https://www.linkedin.com/in/franciscolencinadrago-uxuidesigner/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
-            <li class="list-inline-item"><a href="https://github.com/frandragodev" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-            <li class="list-inline-item"><a href="mailto:franciscolencinadrago@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
-        </ul>
-        <p>2024 - Francisco Lencina Drago</p>
-    </footer>
+        <!-- site footer -->
+        <footer class="container-fluid text-center py-5">
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <a href="https://www.linkedin.com/in/franciscolencinadrago-uxuidesigner/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://github.com/frandragodev" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="mailto:franciscolencinadrago@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                </li>
+            </ul>
+            <p>2024 - Francisco Lencina Drago</p>
+        </footer>
 
-    <!-- bootstrap compiled js @5.3.3 -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-</body>
-
+        <!-- bootstrap compiled js @5.3.3 -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
 </html>

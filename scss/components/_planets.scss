@@ -17,15 +17,9 @@
 
     h2 {
         font-family: $special-title;
-        opacity: 0;
-        transition: 0.3s;
     }
 
     &:hover {
         transform: scale(1.015);
-
-        h2 {
-            opacity: 1;
-        }
     }
 }

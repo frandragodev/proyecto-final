@@ -186,14 +186,9 @@ body {
 }
 .planets-card h2 {
   font-family: "Libre Franklin", sans-serif;
-  opacity: 0;
-  transition: 0.3s;
 }
 .planets-card:hover {
   transform: scale(1.015);
-}
-.planets-card:hover h2 {
-  opacity: 1;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,232 +1,231 @@
 <!DOCTYPE html>
 
 <html lang="es" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- seo keywords and description -->
+        <meta name="description" content="Explore the diverse planets of the Star Wars galaxy, from desert worlds to bustling cityscapes." />
+        <meta name="keywords" content="Star Wars planets, Tatooine, Coruscant, Naboo, Endor, Mustafar, Kamino, Geonosis, Dagobah, Alderaan, Kashyyyk, Bespin, Yavin" />
 
-    <!-- seo keywords and description -->
-    <meta name="description" content="Explore the diverse planets of the Star Wars galaxy, from desert worlds to bustling cityscapes.">
-    <meta name="keywords" content="Star Wars planets, Tatooine, Coruscant, Naboo, Endor, Mustafar, Kamino, Geonosis, Dagobah, Alderaan, Kashyyyk, Bespin, Yavin">
+        <!-- bootstrap compiled css @5.3.3 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
 
-    <!-- bootstrap compiled css @5.3.3 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <!-- font-awesome cdn library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- font-awesome cdn library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- animate.css library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-    <!-- animate.css library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <!-- favicon link -->
+        <link rel="shortcut icon" href="../imgs/favicon.svg" type="image/x-icon" />
 
-    <!-- favicon link -->
-    <link rel="shortcut icon" href="../imgs/favicon.svg" type="image/x-icon">
+        <!-- css link -->
+        <link rel="stylesheet" href="../css/styles.css" />
 
-    <!-- css link -->
-    <link rel="stylesheet" href="../css/styles.css">
+        <title>Rebel - Discover the galaxy's planets</title>
+    </head>
 
-    <title>Planets - Rebel</title>
-</head>
-
-<body>
-
-    <!-- navbar component -->
-    <nav class="navbar navbar-expand-lg text-center px-4">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">Rebel</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="movies.html">Movies</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="series.html">Series</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="characters.html">Characters</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Planets</a>
-                    </li>
-                </ul>
+    <body>
+        <!-- navbar component -->
+        <nav class="navbar navbar-expand-lg text-center px-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Rebel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="movies.html">Movies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="series.html">Series</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="characters.html">Characters</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Planets</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-    <main class="container main-planets animate__animated animate__fadeIn">
-        <div class="row py-4">
-            <div class="col">
-                <h1>Star Wars Planets</h1>
-                <p class="lead">The Star Wars galaxy contains several broad sub-regions. Explore the most popular planets that have naturally risen to prominence throughout the franchise's history.</p>
-            </div>
-        </div>
-    
-        <!-- section containing a list of various planets from Star Wars -->
-        <section class="row row-cols-1 row-cols-lg-2 gy-4 pb-5">
-
-            <!-- planet card content -->
-            <div class="col">
-                <div class="card planets-card border-0">
-                    <img src="../imgs/planets/01-tatooine.jpg" class="card-img rounded-3" alt="Tatooine and it's twin suns">
-                    <div class="card-img-overlay pb-1 d-flex align-items-end">
-                        <h2 class="card-title display-3">Tatooine</h2>
-                    </div>
+        <main class="container main-planets animate__animated animate__fadeIn">
+            <div class="row py-4">
+                <div class="col">
+                    <h1>Star Wars Planets</h1>
+                    <p class="lead">The Star Wars galaxy contains several broad sub-regions. Explore the most popular planets that have naturally risen to prominence throughout the franchise's history.</p>
                 </div>
             </div>
 
-            <!-- planet card content -->
-            <div class="col">
-                <div class="card planets-card border-0">
-                    <img src="../imgs/planets/02-naboo.jpg" class="card-img rounded-3" alt="A view of the palace of Naboo from afar">
-                    <div class="card-img-overlay pb-1 d-flex align-items-end">
-                        <h2 class="card-title display-3">Naboo</h2>
+            <!-- section containing a list of various planets from Star Wars -->
+            <section class="row row-cols-1 row-cols-lg-2 gy-4 pb-5">
+                <!-- planet card content -->
+                <div class="col">
+                    <div class="card planets-card border-0">
+                        <img src="../imgs/planets/01-tatooine.jpg" class="card-img rounded-3" alt="Tatooine and it's twin suns" />
+                        <div class="card-img-overlay pb-1 d-flex align-items-end">
+                            <h2 class="card-title display-3">Tatooine</h2>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- planet card content -->
-            <div class="col">
-                <div class="card planets-card border-0">
-                    <img src="../imgs/planets/03-coruscant.jpg" class="card-img rounded-3" alt="Coruscant at night">
-                    <div class="card-img-overlay pb-1 d-flex align-items-end">
-                        <h2 class="card-title display-3">Coruscant</h2>
+                <!-- planet card content -->
+                <div class="col">
+                    <div class="card planets-card border-0">
+                        <img src="../imgs/planets/02-naboo.jpg" class="card-img rounded-3" alt="A view of the palace of Naboo from afar" />
+                        <div class="card-img-overlay pb-1 d-flex align-items-end">
+                            <h2 class="card-title display-3">Naboo</h2>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- planet card content -->
-            <div class="col">
-                <div class="card planets-card border-0">
-                    <img src="../imgs/planets/04-kamino.jpg" class="card-img rounded-3" alt="Kamino">
-                    <div class="card-img-overlay pb-1 d-flex align-items-end">
-                        <h2 class="card-title display-3">Kamino</h2>
+                <!-- planet card content -->
+                <div class="col">
+                    <div class="card planets-card border-0">
+                        <img src="../imgs/planets/03-coruscant.jpg" class="card-img rounded-3" alt="Coruscant at night" />
+                        <div class="card-img-overlay pb-1 d-flex align-items-end">
+                            <h2 class="card-title display-3">Coruscant</h2>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- planet card content -->
-            <div class="col">
-                <div class="card planets-card border-0">
-                    <img src="../imgs/planets/05-mustafar.jpg" class="card-img rounded-3" alt="Mustafar">
-                    <div class="card-img-overlay pb-1 d-flex align-items-end">
-                        <h2 class="card-title display-3">Mustafar</h2>
+                <!-- planet card content -->
+                <div class="col">
+                    <div class="card planets-card border-0">
+                        <img src="../imgs/planets/04-kamino.jpg" class="card-img rounded-3" alt="Kamino" />
+                        <div class="card-img-overlay pb-1 d-flex align-items-end">
+                            <h2 class="card-title display-3">Kamino</h2>
+                        </div>
                     </div>
                 </div>
-            </div>
-            
-            <!-- planet card content -->
-            <div class="col">
-                <div class="card planets-card border-0">
-                    <img src="../imgs/planets/06-mandalore.jpg" class="card-img rounded-3" alt="A view of a city of Mandalore">
-                    <div class="card-img-overlay pb-1 d-flex align-items-end">
-                        <h2 class="card-title display-3">Mandalore</h2>
+
+                <!-- planet card content -->
+                <div class="col">
+                    <div class="card planets-card border-0">
+                        <img src="../imgs/planets/05-mustafar.jpg" class="card-img rounded-3" alt="Mustafar" />
+                        <div class="card-img-overlay pb-1 d-flex align-items-end">
+                            <h2 class="card-title display-3">Mustafar</h2>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- planet card content -->
-            <div class="col">
-                <div class="card planets-card border-0">
-                    <img src="../imgs/planets/07-dathomir.jpg" class="card-img rounded-3" alt="Dathomir">
-                    <div class="card-img-overlay pb-1 d-flex align-items-end">
-                        <h2 class="card-title display-3">Dathomir</h2>
+                <!-- planet card content -->
+                <div class="col">
+                    <div class="card planets-card border-0">
+                        <img src="../imgs/planets/06-mandalore.jpg" class="card-img rounded-3" alt="A view of a city of Mandalore" />
+                        <div class="card-img-overlay pb-1 d-flex align-items-end">
+                            <h2 class="card-title display-3">Mandalore</h2>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- planet card content -->
-            <div class="col">
-                <div class="card planets-card border-0">
-                    <img src="../imgs/planets/08-dagobah.jpg" class="card-img rounded-3" alt="Dagobah">
-                    <div class="card-img-overlay pb-1 d-flex align-items-end">
-                        <h2 class="card-title display-3">Dagobah</h2>
+                <!-- planet card content -->
+                <div class="col">
+                    <div class="card planets-card border-0">
+                        <img src="../imgs/planets/07-dathomir.jpg" class="card-img rounded-3" alt="Dathomir" />
+                        <div class="card-img-overlay pb-1 d-flex align-items-end">
+                            <h2 class="card-title display-3">Dathomir</h2>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- planet card content -->
-            <div class="col">
-                <div class="card planets-card border-0">
-                    <img src="../imgs/planets/09-bespin.jpg" class="card-img rounded-3" alt="Bespin sky view">
-                    <div class="card-img-overlay pb-1 d-flex align-items-end">
-                        <h2 class="card-title display-3">Bespin</h2>
+                <!-- planet card content -->
+                <div class="col">
+                    <div class="card planets-card border-0">
+                        <img src="../imgs/planets/08-dagobah.jpg" class="card-img rounded-3" alt="Dagobah" />
+                        <div class="card-img-overlay pb-1 d-flex align-items-end">
+                            <h2 class="card-title display-3">Dagobah</h2>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- planet card content -->
-            <div class="col">
-                <div class="card planets-card border-0">
-                    <img src="../imgs/planets/10-yavin.jpg" class="card-img rounded-3" alt="Yavin">
-                    <div class="card-img-overlay pb-1 d-flex align-items-end">
-                        <h2 class="card-title display-3">Yavin</h2>
+                <!-- planet card content -->
+                <div class="col">
+                    <div class="card planets-card border-0">
+                        <img src="../imgs/planets/09-bespin.jpg" class="card-img rounded-3" alt="Bespin sky view" />
+                        <div class="card-img-overlay pb-1 d-flex align-items-end">
+                            <h2 class="card-title display-3">Bespin</h2>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- planet card content -->
-            <div class="col">
-                <div class="card planets-card border-0">
-                    <img src="../imgs/planets/11-alderaan.jpg" class="card-img rounded-3" alt="A view of Alderaan from afar">
-                    <div class="card-img-overlay pb-1 d-flex align-items-end">
-                        <h2 class="card-title display-3">Alderaan</h2>
+                <!-- planet card content -->
+                <div class="col">
+                    <div class="card planets-card border-0">
+                        <img src="../imgs/planets/10-yavin.jpg" class="card-img rounded-3" alt="Yavin" />
+                        <div class="card-img-overlay pb-1 d-flex align-items-end">
+                            <h2 class="card-title display-3">Yavin</h2>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- planet card content -->
-            <div class="col">
-                <div class="card planets-card border-0">
-                    <img src="../imgs/planets/12-geonosis.jpg" class="card-img rounded-3" alt="Geonosis">
-                    <div class="card-img-overlay pb-1 d-flex align-items-end">
-                        <h2 class="card-title display-3">Geonosis</h2>
+                <!-- planet card content -->
+                <div class="col">
+                    <div class="card planets-card border-0">
+                        <img src="../imgs/planets/11-alderaan.jpg" class="card-img rounded-3" alt="A view of Alderaan from afar" />
+                        <div class="card-img-overlay pb-1 d-flex align-items-end">
+                            <h2 class="card-title display-3">Alderaan</h2>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- planet card content -->
-            <div class="col">
-                <div class="card planets-card border-0">
-                    <img src="../imgs/planets/13-kashyyyk.jpg" class="card-img rounded-3" alt="Kashyyyk">
-                    <div class="card-img-overlay pb-1 d-flex align-items-end">
-                        <h2 class="card-title display-3">Kashyyyk</h2>
+                <!-- planet card content -->
+                <div class="col">
+                    <div class="card planets-card border-0">
+                        <img src="../imgs/planets/12-geonosis.jpg" class="card-img rounded-3" alt="Geonosis" />
+                        <div class="card-img-overlay pb-1 d-flex align-items-end">
+                            <h2 class="card-title display-3">Geonosis</h2>
+                        </div>
                     </div>
                 </div>
-            </div>
-            
-            <!-- planet card content -->
-            <div class="col">
-                <div class="card planets-card border-0">
-                    <img src="../imgs/planets/14-endor.jpg" class="card-img rounded-3" alt="Endor">
-                    <div class="card-img-overlay pb-1 d-flex align-items-end">
-                        <h2 class="card-title display-3">Endor</h2>
+
+                <!-- planet card content -->
+                <div class="col">
+                    <div class="card planets-card border-0">
+                        <img src="../imgs/planets/13-kashyyyk.jpg" class="card-img rounded-3" alt="Kashyyyk" />
+                        <div class="card-img-overlay pb-1 d-flex align-items-end">
+                            <h2 class="card-title display-3">Kashyyyk</h2>
+                        </div>
                     </div>
                 </div>
-            </div>
-            
-        </section>
-    </main>
 
-    <!-- site footer -->
-    <footer class="container-fluid text-center py-5">
-        <ul class="list-inline">
-            <li class="list-inline-item"><a href="https://www.linkedin.com/in/franciscolencinadrago-uxuidesigner/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
-            <li class="list-inline-item"><a href="https://github.com/frandragodev" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-            <li class="list-inline-item"><a href="mailto:franciscolencinadrago@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
-        </ul>
-        <p>2024 - Francisco Lencina Drago</p>
-    </footer>
-    
-    <!-- bootstrap compiled js @5.3.3 -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+                <!-- planet card content -->
+                <div class="col">
+                    <div class="card planets-card border-0">
+                        <img src="../imgs/planets/14-endor.jpg" class="card-img rounded-3" alt="Endor" />
+                        <div class="card-img-overlay pb-1 d-flex align-items-end">
+                            <h2 class="card-title display-3">Endor</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-</body>
+        <!-- site footer -->
+        <footer class="container-fluid text-center py-5">
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <a href="https://www.linkedin.com/in/franciscolencinadrago-uxuidesigner/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://github.com/frandragodev" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="mailto:franciscolencinadrago@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                </li>
+            </ul>
+            <p>2024 - Francisco Lencina Drago</p>
+        </footer>
 
+        <!-- bootstrap compiled js @5.3.3 -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
 </html>
